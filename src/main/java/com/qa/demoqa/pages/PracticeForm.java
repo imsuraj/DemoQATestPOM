@@ -68,7 +68,7 @@ public class PracticeForm extends BasePage{
 		eu.doClick(hobbies2);
 		eu.doClick(hobbies3);
 
-		eu.doSendKeys(picture, "/Users/Suraj/Downloads/sampleFile.jpeg");
+		eu.doSendKeys(picture, "./sampleFile.jpeg");
 		eu.doSendKeys(currentAddress, "Lalitpur");
 
 		eu.doSendKeys(state, "NCR");

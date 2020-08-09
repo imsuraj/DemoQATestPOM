@@ -29,7 +29,7 @@ public class UploadFileTest extends BaseTest{
 
 	@Test (priority = 1, enabled = true)
 	public void testDoubleClick() throws InterruptedException {
-		upload.uploadFile("/Users/Suraj/Downloads/sampleFile.jpeg");
+		upload.uploadFile("./sampleFile.jpeg");
 	}
 
 
