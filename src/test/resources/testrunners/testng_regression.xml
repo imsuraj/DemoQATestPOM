@@ -50,5 +50,10 @@
 			<class name="com.qa.demoqa.tests.InteractionsTest" />
 		</classes>
 	</test>
+	<test name="DemoQA PracticeFormTest">
+		<classes>
+			<class name="com.qa.demoqa.tests.PracticeFormTest" />
+		</classes>
+	</test>
 
 </suite>
