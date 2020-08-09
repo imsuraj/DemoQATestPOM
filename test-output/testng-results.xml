@@ -1,29 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15966" started-at="2020-08-09T16:22:16 NPT" finished-at="2020-08-09T16:22:32 NPT">
+  <suite name="Default suite" duration-ms="41162" started-at="2020-08-09T18:26:28 NPT" finished-at="2020-08-09T18:27:09 NPT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15966" started-at="2020-08-09T16:22:16 NPT" finished-at="2020-08-09T16:22:32 NPT">
-      <class name="com.qa.demoqa.tests.SelectMenuTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.demoqa.tests.SelectMenuTest@3c9168dc]" name="SetUp" is-config="true" duration-ms="5454" started-at="2020-08-09T16:22:16 NPT" finished-at="2020-08-09T16:22:22 NPT">
+    <test name="Default test" duration-ms="41162" started-at="2020-08-09T18:26:28 NPT" finished-at="2020-08-09T18:27:09 NPT">
+      <class name="com.qa.demoqa.tests.PracticeFormTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.demoqa.tests.PracticeFormTest@33617539]" name="SetUp" is-config="true" duration-ms="6602" started-at="2020-08-09T18:26:28 NPT" finished-at="2020-08-09T18:26:35 NPT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.qa.demoqa.tests.SelectMenuTest@3c9168dc]" name="classSetUp" is-config="true" duration-ms="141" started-at="2020-08-09T16:22:22 NPT" finished-at="2020-08-09T16:22:22 NPT">
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.qa.demoqa.tests.PracticeFormTest@33617539]" name="classSetUp" is-config="true" duration-ms="138" started-at="2020-08-09T18:26:35 NPT" finished-at="2020-08-09T18:26:35 NPT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classSetUp -->
-        <test-method status="PASS" signature="selectMenuTest()[pri:0, instance:com.qa.demoqa.tests.SelectMenuTest@3c9168dc]" name="selectMenuTest" duration-ms="10268" started-at="2020-08-09T16:22:22 NPT" finished-at="2020-08-09T16:22:32 NPT">
+        <test-method status="PASS" signature="practiceFormTest()[pri:0, instance:com.qa.demoqa.tests.PracticeFormTest@33617539]" name="practiceFormTest" duration-ms="14912" started-at="2020-08-09T18:26:35 NPT" finished-at="2020-08-09T18:26:50 NPT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectMenuTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.demoqa.tests.SelectMenuTest@3c9168dc]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-09T16:22:32 NPT" finished-at="2020-08-09T16:22:32 NPT">
+        </test-method> <!-- practiceFormTest -->
+        <test-method status="PASS" signature="practiceFormTestDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.demoqa.tests.PracticeFormTest@33617539]" name="practiceFormTestDDT" duration-ms="9482" started-at="2020-08-09T18:26:50 NPT" data-provider="getDataFromExcel" finished-at="2020-08-09T18:27:00 NPT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anand]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[suraj1000@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9841463105]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1990]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiceFormTestDDT -->
+        <test-method status="PASS" signature="practiceFormTestDDT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.demoqa.tests.PracticeFormTest@33617539]" name="practiceFormTestDDT" duration-ms="9329" started-at="2020-08-09T18:27:00 NPT" data-provider="getDataFromExcel" finished-at="2020-08-09T18:27:09 NPT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anand]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suraj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[suraj200@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9810100822]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1991]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- practiceFormTestDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.demoqa.tests.PracticeFormTest@33617539]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-09T18:27:09 NPT" finished-at="2020-08-09T18:27:09 NPT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.demoqa.tests.SelectMenuTest -->
+      </class> <!-- com.qa.demoqa.tests.PracticeFormTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

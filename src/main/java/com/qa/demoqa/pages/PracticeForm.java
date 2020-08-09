@@ -1,6 +1,8 @@
 package com.qa.demoqa.pages;
 
 
+import java.io.File;
+
 /**
  * @author SurajAnand
  *
@@ -45,7 +47,7 @@ public class PracticeForm extends BasePage{
 	By closeBtn =  By.id("closeLargeModal");
 
 	
-	public void enterValueInPracticeForm (String firstname, String lastname, String email, String mobile, String year, String month, String date) throws InterruptedException {
+	public void enterValueInPracticeForm (String firstname, String lastname, String email, String mobile, String year, String month, String date, String path) throws InterruptedException {
 		eu.doActionsSendKeys(firstName, firstname);
 		eu.doActionsSendKeys(lastName, lastname);
 		eu.doActionsSendKeys(userEmail, email);
@@ -67,8 +69,9 @@ public class PracticeForm extends BasePage{
 		eu.doClick(hobbies1);
 		eu.doClick(hobbies2);
 		eu.doClick(hobbies3);
+		File file = new File(path);
 
-		eu.doSendKeys(picture, "./sampleFile.jpeg");
+		eu.doSendKeys(picture, file.getAbsolutePath() );
 		eu.doSendKeys(currentAddress, "Lalitpur");
 
 		eu.doSendKeys(state, "NCR");

@@ -30,9 +30,9 @@ public class PracticeFormTest extends BaseTest{
 		practiceForm = forms.doClickPracticeForm();
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void practiceFormTest() throws InterruptedException {
-		practiceForm.enterValueInPracticeForm("Suraj", "Anand", "surya@gmail.com", "9810100822", "1990", "0", "27");
+		practiceForm.enterValueInPracticeForm("Suraj", "Anand", "surya@gmail.com", "9810100822", "1990", "0", "27", "src/main/java/com/qa/demoqa/testdata/sampleFile.jpeg");
 	}
 	
 	
@@ -44,7 +44,7 @@ public class PracticeFormTest extends BaseTest{
 	
 	@Test(dataProvider = "getDataFromExcel")
 	public void practiceFormTestDDT(String firstname, String lastname, String email, String mobile, String year, String month, String date ) throws InterruptedException {
-		practiceForm.enterValueInPracticeForm(firstname, lastname, email, mobile, year, month, date);
+		practiceForm.enterValueInPracticeForm(firstname, lastname, email, mobile, year, month, date, "src/main/java/com/qa/demoqa/testdata/sampleFile.jpeg");
 	}
 	
 }

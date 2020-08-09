@@ -1,6 +1,8 @@
 package com.qa.demoqa.pages;
 
 
+import java.io.File;
+
 /**
  * @author SurajAnand
  *
@@ -26,6 +28,7 @@ public class Upload extends BasePage{
 	
 	public void uploadFile(String path) throws InterruptedException {		;
 		Thread.sleep(1000);
-		eu.doSendKeys(uploadFile, path);
+		File file = new File(path);
+		eu.doSendKeys(uploadFile, file.getAbsolutePath());
 	}
 }
