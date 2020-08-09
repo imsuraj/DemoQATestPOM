@@ -1,0 +1,1 @@
+{"uuid":"699d9c24-23bb-4ec3-a1a9-408c7af25446","name":"com.qa.demoqa.tests.TabsTest","children":["87f71513-420c-4999-9f91-e3d4fc250a6f"],"befores":[{"name":"classSetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1596884398736,"stop":1596884398864}],"afters":[],"links":[],"start":1596884387769,"stop":1596884417304}

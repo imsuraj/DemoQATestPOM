@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="24" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoQA Test automtion regression suite" duration-ms="203486" started-at="2020-08-09T11:11:40Z" finished-at="2020-08-09T11:15:04Z">
+    <groups>
+    </groups>
+    <test name="DemoQA HomePageTest" duration-ms="26218" started-at="2020-08-09T11:11:40Z" finished-at="2020-08-09T11:12:06Z">
+      <class name="com.qa.demoqa.tests.HomePageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.demoqa.tests.HomePageTest@26e412ef]" name="SetUp" is-config="true" duration-ms="5916" started-at="2020-08-09T11:11:40Z" finished-at="2020-08-09T11:11:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.demoqa.tests.HomePageTest@26e412ef]" name="verifyHomePageTitleTest" duration-ms="10064" started-at="2020-08-09T11:11:46Z" finished-at="2020-08-09T11:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="verifyElementsIsPresentTest()[pri:2, instance:com.qa.demoqa.tests.HomePageTest@26e412ef]" name="verifyElementsIsPresentTest" duration-ms="5057" started-at="2020-08-09T11:11:56Z" finished-at="2020-08-09T11:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsIsPresentTest -->
+        <test-method status="PASS" signature="verifyElementsClickTest()[pri:3, instance:com.qa.demoqa.tests.HomePageTest@26e412ef]" name="verifyElementsClickTest" duration-ms="5080" started-at="2020-08-09T11:12:01Z" finished-at="2020-08-09T11:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsClickTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.demoqa.tests.HomePageTest@26e412ef]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-09T11:12:06Z" finished-at="2020-08-09T11:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.demoqa.tests.HomePageTest -->
+    </test> <!-- DemoQA HomePageTest -->
+    <test name="DemoQA ElementsTest" duration-ms="9124" started-at="2020-08-09T11:12:12Z" finished-at="2020-08-09T11:12:21Z">
+      <class name="com.qa.demoqa.tests.ElementsTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.demoqa.tests.ElementsTest@3e7dfd44]" name="SetUp" is-config="true" duration-ms="3977" started-at="2020-08-09T11:12:12Z" finished-at="2020-08-09T11:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.qa.demoqa.tests.ElementsTest@3e7dfd44]" name="classSetUp" is-config="true" duration-ms="65" started-at="2020-08-09T11:12:16Z" finished-at="2020-08-09T11:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="clickTextBoxTest()[pri:0, instance:com.qa.demoqa.tests.ElementsTest@3e7dfd44]" name="clickTextBoxTest" duration-ms="5081" started-at="2020-08-09T11:12:16Z" finished-at="2020-08-09T11:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTextBoxTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.demoqa.tests.ElementsTest@3e7dfd44]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-09T11:12:21Z" finished-at="2020-08-09T11:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.demoqa.tests.ElementsTest -->
+    </test> <!-- DemoQA ElementsTest -->
+    <test name="DemoQA FormsTest" duration-ms="11671" started-at="2020-08-09T11:12:26Z" finished-at="2020-08-09T11:12:37Z">
+      <class name="com.qa.demoqa.tests.FormTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.demoqa.tests.FormTest@d8948cd]" name="SetUp" is-config="true" duration-ms="6504" started-at="2020-08-09T11:12:26Z" finished-at="2020-08-09T11:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.qa.demoqa.tests.FormTest@d8948cd]" name="classSetUp" is-config="true" duration-ms="63" started-at="2020-08-09T11:12:32Z" finished-at="2020-08-09T11:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="formClickTest()[pri:0, instance:com.qa.demoqa.tests.FormTest@d8948cd]" name="formClickTest" duration-ms="5103" started-at="2020-08-09T11:12:32Z" finished-at="2020-08-09T11:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formClickTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.demoqa.tests.FormTest@d8948cd]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-09T11:12:37Z" finished-at="2020-08-09T11:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.demoqa.tests.FormTest -->
+    </test> <!-- DemoQA FormsTest -->
+    <test name="DemoQA AlertFrameWindowsTest" duration-ms="32159" started-at="2020-08-09T11:12:42Z" finished-at="2020-08-09T11:13:15Z">
+      <class name="com.qa.demoqa.tests.AlertFrameWindowsTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.demoqa.tests.AlertFrameWindowsTest@38eb2fb0]" name="SetUp" is-config="true" duration-ms="6311" started-at="2020-08-09T11:12:42Z" finished-at="2020-08-09T11:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.qa.demoqa.tests.AlertFrameWindowsTest@38eb2fb0]" name="classSetUp" is-config="true" duration-ms="67" started-at="2020-08-09T11:12:49Z" finished-at="2020-08-09T11:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="clickBrowserWindowsTest()[pri:1, instance:com.qa.demoqa.tests.AlertFrameWindowsTest@38eb2fb0]" name="clickBrowserWindowsTest" duration-ms="5184" started-at="2020-08-09T11:12:49Z" finished-at="2020-08-09T11:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBrowserWindowsTest -->
+        <test-method status="PASS" signature="clickAlertTest()[pri:2, instance:com.qa.demoqa.tests.AlertFrameWindowsTest@38eb2fb0]" name="clickAlertTest" duration-ms="5145" started-at="2020-08-09T11:12:54Z" finished-at="2020-08-09T11:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAlertTest -->
+        <test-method status="PASS" signature="clickFramesTest()[pri:3, instance:com.qa.demoqa.tests.AlertFrameWindowsTest@38eb2fb0]" name="clickFramesTest" duration-ms="5151" started-at="2020-08-09T11:12:59Z" finished-at="2020-08-09T11:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFramesTest -->
+        <test-method status="PASS" signature="clickNestedFramesTest()[pri:4, instance:com.qa.demoqa.tests.AlertFrameWindowsTest@38eb2fb0]" name="clickNestedFramesTest" duration-ms="5144" started-at="2020-08-09T11:13:04Z" finished-at="2020-08-09T11:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNestedFramesTest -->
+        <test-method status="PASS" signature="clickModalDialogsTest()[pri:5, instance:com.qa.demoqa.tests.AlertFrameWindowsTest@38eb2fb0]" name="clickModalDialogsTest" duration-ms="5147" started-at="2020-08-09T11:13:09Z" finished-at="2020-08-09T11:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickModalDialogsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.demoqa.tests.AlertFrameWindowsTest@38eb2fb0]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-09T11:13:15Z" finished-at="2020-08-09T11:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.demoqa.tests.AlertFrameWindowsTest -->
+    </test> <!-- DemoQA AlertFrameWindowsTest -->
+    <test name="DemoQA Widgets" duration-ms="57905" started-at="2020-08-09T11:13:20Z" finished-at="2020-08-09T11:14:18Z">
+      <class name="com.qa.demoqa.tests.WidgetsTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="SetUp" is-config="true" duration-ms="12266" started-at="2020-08-09T11:13:20Z" finished-at="2020-08-09T11:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="classSetUp" is-config="true" duration-ms="70" started-at="2020-08-09T11:13:32Z" finished-at="2020-08-09T11:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="clickAccordianTest()[pri:1, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="clickAccordianTest" duration-ms="5057" started-at="2020-08-09T11:13:32Z" finished-at="2020-08-09T11:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAccordianTest -->
+        <test-method status="PASS" signature="clickAutoCompleteTest()[pri:2, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="clickAutoCompleteTest" duration-ms="5069" started-at="2020-08-09T11:13:37Z" finished-at="2020-08-09T11:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAutoCompleteTest -->
+        <test-method status="PASS" signature="clickDatePickerTest()[pri:3, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="clickDatePickerTest" duration-ms="5077" started-at="2020-08-09T11:13:42Z" finished-at="2020-08-09T11:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDatePickerTest -->
+        <test-method status="PASS" signature="clickSliderTest()[pri:4, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="clickSliderTest" duration-ms="5057" started-at="2020-08-09T11:13:47Z" finished-at="2020-08-09T11:13:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSliderTest -->
+        <test-method status="PASS" signature="clickProgressBarTest()[pri:5, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="clickProgressBarTest" duration-ms="5056" started-at="2020-08-09T11:13:52Z" finished-at="2020-08-09T11:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProgressBarTest -->
+        <test-method status="PASS" signature="clickTabsTest()[pri:6, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="clickTabsTest" duration-ms="5029" started-at="2020-08-09T11:13:57Z" finished-at="2020-08-09T11:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTabsTest -->
+        <test-method status="PASS" signature="clickToolTipsTest()[pri:7, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="clickToolTipsTest" duration-ms="5138" started-at="2020-08-09T11:14:02Z" finished-at="2020-08-09T11:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickToolTipsTest -->
+        <test-method status="PASS" signature="clickMenuTest()[pri:8, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="clickMenuTest" duration-ms="5038" started-at="2020-08-09T11:14:07Z" finished-at="2020-08-09T11:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMenuTest -->
+        <test-method status="PASS" signature="clickSelectMenuTest()[pri:9, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="clickSelectMenuTest" duration-ms="5036" started-at="2020-08-09T11:14:12Z" finished-at="2020-08-09T11:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSelectMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.demoqa.tests.WidgetsTest@5e268ce6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-09T11:14:18Z" finished-at="2020-08-09T11:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.demoqa.tests.WidgetsTest -->
+    </test> <!-- DemoQA Widgets -->
+    <test name="DemoQA Interactions" duration-ms="41005" started-at="2020-08-09T11:14:23Z" finished-at="2020-08-09T11:15:04Z">
+      <class name="com.qa.demoqa.tests.InteractionsTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.demoqa.tests.InteractionsTest@5b12012e]" name="SetUp" is-config="true" duration-ms="15723" started-at="2020-08-09T11:14:23Z" finished-at="2020-08-09T11:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.qa.demoqa.tests.InteractionsTest@5b12012e]" name="classSetUp" is-config="true" duration-ms="67" started-at="2020-08-09T11:14:38Z" finished-at="2020-08-09T11:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="clickSortableTest()[pri:1, instance:com.qa.demoqa.tests.InteractionsTest@5b12012e]" name="clickSortableTest" duration-ms="5042" started-at="2020-08-09T11:14:38Z" finished-at="2020-08-09T11:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSortableTest -->
+        <test-method status="PASS" signature="clickSelectableTest()[pri:2, instance:com.qa.demoqa.tests.InteractionsTest@5b12012e]" name="clickSelectableTest" duration-ms="5040" started-at="2020-08-09T11:14:43Z" finished-at="2020-08-09T11:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSelectableTest -->
+        <test-method status="PASS" signature="clickResizableTest()[pri:3, instance:com.qa.demoqa.tests.InteractionsTest@5b12012e]" name="clickResizableTest" duration-ms="5039" started-at="2020-08-09T11:14:48Z" finished-at="2020-08-09T11:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickResizableTest -->
+        <test-method status="PASS" signature="clickDroppableTest()[pri:4, instance:com.qa.demoqa.tests.InteractionsTest@5b12012e]" name="clickDroppableTest" duration-ms="5053" started-at="2020-08-09T11:14:53Z" finished-at="2020-08-09T11:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDroppableTest -->
+        <test-method status="PASS" signature="clickDraggableTest()[pri:5, instance:com.qa.demoqa.tests.InteractionsTest@5b12012e]" name="clickDraggableTest" duration-ms="5036" started-at="2020-08-09T11:14:59Z" finished-at="2020-08-09T11:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDraggableTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.demoqa.tests.InteractionsTest@5b12012e]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-09T11:15:04Z" finished-at="2020-08-09T11:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.demoqa.tests.InteractionsTest -->
+    </test> <!-- DemoQA Interactions -->
+  </suite> <!-- DemoQA Test automtion regression suite -->
+</testng-results>

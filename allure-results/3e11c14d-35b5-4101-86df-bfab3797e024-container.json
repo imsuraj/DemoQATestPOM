@@ -1,0 +1,1 @@
+{"uuid":"3e11c14d-35b5-4101-86df-bfab3797e024","name":"com.qa.demoqa.tests.CheckBoxTest","children":["f0dd59a7-8fe8-4ae3-a3fd-dfe04f50893e"],"befores":[{"name":"classSetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1596645306927,"stop":1596645307071}],"afters":[],"links":[],"start":1596645299440,"stop":1596645322318}

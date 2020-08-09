@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15966" started-at="2020-08-09T16:22:16 NPT" finished-at="2020-08-09T16:22:32 NPT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15966" started-at="2020-08-09T16:22:16 NPT" finished-at="2020-08-09T16:22:32 NPT">
+      <class name="com.qa.demoqa.tests.SelectMenuTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.qa.demoqa.tests.SelectMenuTest@3c9168dc]" name="SetUp" is-config="true" duration-ms="5454" started-at="2020-08-09T16:22:16 NPT" finished-at="2020-08-09T16:22:22 NPT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.qa.demoqa.tests.SelectMenuTest@3c9168dc]" name="classSetUp" is-config="true" duration-ms="141" started-at="2020-08-09T16:22:22 NPT" finished-at="2020-08-09T16:22:22 NPT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="selectMenuTest()[pri:0, instance:com.qa.demoqa.tests.SelectMenuTest@3c9168dc]" name="selectMenuTest" duration-ms="10268" started-at="2020-08-09T16:22:22 NPT" finished-at="2020-08-09T16:22:32 NPT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMenuTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.demoqa.tests.SelectMenuTest@3c9168dc]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-09T16:22:32 NPT" finished-at="2020-08-09T16:22:32 NPT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.demoqa.tests.SelectMenuTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,1 @@
+{"uuid":"7add6002-3d14-4d02-8f2c-f59c154ea08d","name":"com.qa.demoqa.tests.TextBoxTest","children":["7fd262f0-adcb-47fe-ab30-3377952b5443"],"befores":[{"name":"classSetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1596644655562,"stop":1596644655689}],"afters":[],"links":[],"start":1596644649741,"stop":1596644671219}
