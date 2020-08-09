@@ -15,7 +15,7 @@ Extent Reports
 ```
 
 
-### Steps to clone execute the test
+### Steps to clone and execute the test
 ```
 git clone https://github.com/imsuraj/DemoQATestPOM.git
 cd DemoQATestPOM
