@@ -21,6 +21,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import com.qa.demoqa.util.ElementUtil;
 import com.qa.demoqa.util.JavaScriptUtil;
+import com.qa.demoqa.util.OptionsManager;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -30,6 +31,7 @@ public class BasePage {
 	public Properties prop;
 	public ElementUtil eu;
 	public JavaScriptUtil js;
+	public OptionsManager optionsManager;
 
 
 
@@ -42,18 +44,20 @@ public class BasePage {
 
 	public WebDriver init_driver(Properties prop) {
 
+		optionsManager = new OptionsManager(prop);
+
 		String browserName = prop.getProperty("browser");
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			//driver = new ChromeDriver();
 
-			tlDriver.set(new ChromeDriver());
+			tlDriver.set(new ChromeDriver(optionsManager.getChromeOptions()));
 
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			//driver = new FirefoxDriver();
-			tlDriver.set(new FirefoxDriver());
+			tlDriver.set(new FirefoxDriver(optionsManager.getFirefoxOptions()));
 
 		} else if (browserName.equalsIgnoreCase("safari")) {
 			WebDriverManager.getInstance(SafariDriver.class).setup();
@@ -82,10 +86,34 @@ public class BasePage {
 
 	public Properties init_prop() {
 		prop = new Properties();
-		String path = "./src/main/java/com/qa/demoqa/config/config.properties";
+		String path = null;
+		String env  = null;
+
+
 
 		try {
+			env = System.getProperty("env");
+			System.out.println("Environment is : "+env);
+			if (env == null) {
+				path = "./src/main/java/com/qa/demoqa/config/config.properties";
+			}
+			else {
+				switch (env) {
+				case "qa":
+					path = "./src/main/java/com/qa/demoqa/config/qa.config.properties";
+					break;
+				case "dev":
+					path = "./src/main/java/com/qa/demoqa/config/dev.config.properties";
+					break;
+				case "stage":
+					path = "./src/main/java/com/qa/demoqa/config/stage.config.properties";
+					break;
+				default:
+					System.out.println("Please pass the correct env value : " +env);
+					break;
+				}
 
+			}
 			FileInputStream ip = new FileInputStream(path);
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
@@ -96,6 +124,7 @@ public class BasePage {
 
 		return prop;
 	}
+
 
 	/**
 	 * this method will take the screenshot

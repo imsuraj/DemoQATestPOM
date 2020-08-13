@@ -20,6 +20,7 @@
 /Users/Suraj/JavaProjects/DemoQATestPOM/src/main/java/com/qa/demoqa/util/Constants.java
 /Users/Suraj/JavaProjects/DemoQATestPOM/src/main/java/com/qa/demoqa/pages/Alerts.java
 /Users/Suraj/JavaProjects/DemoQATestPOM/src/main/java/com/qa/demoqa/base/BasePage.java
+/Users/Suraj/JavaProjects/DemoQATestPOM/src/main/java/com/qa/demoqa/util/OptionsManager.java
 /Users/Suraj/JavaProjects/DemoQATestPOM/src/main/java/com/qa/demoqa/pages/SelectMenu.java
 /Users/Suraj/JavaProjects/DemoQATestPOM/src/main/java/com/qa/demoqa/pages/Frames.java
 /Users/Suraj/JavaProjects/DemoQATestPOM/src/main/java/com/qa/demoqa/base/BaseTest.java

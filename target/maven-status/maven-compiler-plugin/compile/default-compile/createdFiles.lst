@@ -13,6 +13,7 @@ com/qa/demoqa/pages/PracticeForm.class
 com/qa/demoqa/listeners/ExtentReportListener.class
 com/qa/demoqa/pages/Accordian.class
 com/qa/demoqa/pages/Slider.class
+com/qa/demoqa/util/OptionsManager.class
 com/qa/demoqa/pages/Elements.class
 com/qa/demoqa/pages/Droppable.class
 com/qa/demoqa/pages/Menu.class

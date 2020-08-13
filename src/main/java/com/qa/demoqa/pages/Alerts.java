@@ -41,8 +41,10 @@ public class Alerts extends BasePage{
 
 	public void clickTimeAlert(String message) throws InterruptedException {
 		eu.doClick(timeAlertElem);
-		Thread.sleep(6000);
-		verifyAlertMessage(message);
+//		Thread.sleep(6000);
+		Alert alert = eu.waitForAlertPresent(10);
+		Assert.assertEquals(alert.getText(), message);
+//		verifyAlertMessage(message);
 	}
 
 	public void clickConfirmBoxAlert(String message) throws InterruptedException {
